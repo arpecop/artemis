@@ -75,8 +75,7 @@ componentDidMount() {
               </span>
                 <h3>{item.title}</h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  {item.description}
                   </p>
                   </a>
               </li>
