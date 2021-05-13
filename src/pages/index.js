@@ -111,6 +111,7 @@ componentDidMount() {
 
         
         </div>
+         <section id="contact" className="main special"></section>
       </Layout>
     )
   }
