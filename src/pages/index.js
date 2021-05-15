@@ -71,7 +71,7 @@ componentDidMount() {
               {this.state.items.naemi.map(item => (<li key={item.id}>
                 <a href={item.href}>
                  <span className="image">
-                <img src={item.img} alt="" style={{maxWidth:300}} />
+                <img src={item.img} alt="" style={{width:280, height:180}} />
               </span>
                 <h3>{item.title}</h3>
                 <p>
@@ -93,7 +93,7 @@ componentDidMount() {
               {this.state.items.prodajbi.map(item => (<li key={item.id}>
                 <a href={item.href}>
                  <span className="image">
-                <img src={item.img} alt="" style={{maxWidth:300}} />
+                <img src={item.img} alt="" style={{width:280, height:180}} />
               </span>
                 <h3>{item.title}</h3>
                 <p>
