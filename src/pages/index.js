@@ -35,10 +35,10 @@ componentDidMount() {
   render() {
     return (
       <Layout>
-        <Helmet title="Артемис недвижими имоти Варна / Добрич" />
+        <Helmet title="Артемис недвижими имоти Варна / Добрич" google-site-verification="E3ToEEmpO7q1RNns6WDtxLIxuAPDHGEvqSuQi92fYWI" />
 
         <Header />
-
+ 
         <Waypoint
           onEnter={this._handleWaypointEnter}
           onLeave={this._handleWaypointLeave}
